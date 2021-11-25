@@ -1,0 +1,25 @@
+.TodoSearch{
+    font-size: 20px;
+    height: 30px;
+    width: 90%;
+    padding: 20px 20px;
+    border: none;
+    background-color: #efefef;
+    opacity: 0.9;
+    margin: 30px auto;
+}
+.TodoSearch:focus{
+    outline-color: #fff;
+    opacity: 0.6;
+}
+
+.labelInput{
+    display: flex;
+    width: 100%;
+}
+
+@media (min-width: 720px){
+    .TodoSearch{
+        width: 70%;
+    }
+}

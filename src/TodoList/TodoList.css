@@ -1,0 +1,22 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.TodoList{
+    width: 95%;
+    font-size: 18px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+@media (min-width: 720px){
+    .TodoList{
+        width: 80%;
+        font-size: 20px;
+    }
+}

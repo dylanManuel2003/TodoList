@@ -1,0 +1,39 @@
+.TodoItem{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    background-color: #fafaff;
+    color: #222;
+    display: flex;
+    margin: 10px 0; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check{
+    width: 10%;
+    padding: 10px 20px;
+}
+.check-complete{
+    color: #73fc73;
+}
+.check:hover{
+    cursor: pointer;
+    color: #02f702;
+}
+
+.parrafo{
+    width: 80%;
+    padding-left: 10px
+}
+.parrafo-complete{
+    text-decoration: line-through;
+}
+
+.delete{
+    width: 10%;
+}
+.delete:hover{
+    cursor: pointer;
+    color: #fd0000;
+}
